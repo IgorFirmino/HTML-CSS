@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 97vw;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos quidem in! Autem totam in ducimus facilis deserunt, ullam nihil numquam optio, explicabo ea, quae aut hic odio vitae iure?
+    </p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum doloribus, accusamus in incidunt reprehenderit quia dicta impedit facilis nisi laborum rem, perspiciatis mollitia excepturi, blanditiis  possimus distinctio ratione ipsa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ea harum nisi illo? Sapiente corporis aperiam quis voluptatibus. Quo assumenda, explicabo consequatur voluptatum omnis repellat porro sequi rerum officiis aliquid.
+    </p>
+
+    <iframe srcdoc="<h1>Escolha uma opção acima</h1>" frameborder="0" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum reprehenderit culpa ipsam nisi, molestias, sunt error libero doloribus impedit dolorum cumque incidunt eveniet, magni itaque rerum praesentium iusto excepturi voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates commodi, repudiandae iure laudantium esse molestias vero, repellat rerum nemo possimus quasi expedita, ipsam animi obcaecati facere ea necessitatibus alias non.</p>
+</body>
+</html>
