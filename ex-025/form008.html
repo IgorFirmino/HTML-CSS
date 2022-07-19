@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplos de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="in1">Número 1: </label>
+            <input type="number" name="n1" id="in1" min="0" max="50" oninput="calcular()">
+            
+        </p>
+        <p>
+            <label for="in2">Número 2: </label>
+            <input type="number" name="n2" id="in2" min="0" max="50" oninput="calcular()">
+        </p>
+        <label for="isoma">Soma: </label>
+        <output id="isoma">0</output>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function calcular(){
+            let n1 =document.getElementById('in1')
+            let n2 = document.getElementById('in2')
+            let isoma = document.getElementById('isoma')
+
+            isoma.innerHTML= Number(n1.value) + Number(n2.value)
+        }
+    </script>
+</body>
+</html>
