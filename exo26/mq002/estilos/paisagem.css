@@ -3,5 +3,5 @@
 
 body{
     background: url(../imagens/mulher.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }

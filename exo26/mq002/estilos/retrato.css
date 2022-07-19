@@ -3,5 +3,6 @@
 
 body{
     background: url(../imagens/mulher-cel.jpg) no-repeat;
-    background-size: 100%;
+    background-size: contain;
+    
 }
